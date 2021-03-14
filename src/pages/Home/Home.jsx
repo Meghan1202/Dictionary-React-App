@@ -1,4 +1,5 @@
 import React from 'react';
+import FloatingActionButton from '../../components/FloatingActionButton/FloatingActionButton';
 import VocabCard from '../../components/VocabCard/VocabCard';
 import './Home.css';
 
@@ -13,6 +14,7 @@ const Home = () => (
       <VocabCard />
       <VocabCard />
     </div>
+    <FloatingActionButton />
   </>
 );
 
