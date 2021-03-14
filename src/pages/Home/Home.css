@@ -1,0 +1,11 @@
+.Cards-Container {
+    background-color: white;
+    text-align: left;
+    align-items: center;
+}
+
+.Home-Body {
+    align-self: center;
+    justify-content: center;
+    color: rgb(73, 203, 243);
+}
