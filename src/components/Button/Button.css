@@ -1,0 +1,12 @@
+.Get-start {
+  display: flex;
+  height: 1.5rem;
+  border-radius: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  background-color: lightblue;
+  color: blue;
+  font-weight: bold;
+  padding: 1rem 1.5rem;
+  border: none;
+}
