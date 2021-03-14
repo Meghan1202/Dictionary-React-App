@@ -1,0 +1,48 @@
+.Word-Fill {
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  background-color: rgba(255, 255, 255, 0.74);
+  margin: 1rem;
+  color: black;
+  border: none;
+}
+
+.Word-Fill-Label {
+  font-weight: bold;
+  color: rgb(58, 171, 236);
+}
+
+.Word-Meaning-Label {
+  font-weight: bold;
+  color: rgb(58, 171, 236);
+}
+
+.Word-Meaning {
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  background-color: rgba(255, 255, 255, 0.74);
+  margin: 1rem;
+  color: black;
+  border: none;
+}
+
+
+.Add-Word-Page {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    width: 100%;
+}
+
+.Add-Word-Button {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 2rem;
+    border: none;
+    background-color: rgb(0, 132, 255);
+    color: white;
+    align-self: flex-end;
+    margin: 0.4rem;
+    text-decoration: none;
+}
