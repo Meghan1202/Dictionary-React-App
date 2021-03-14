@@ -10,3 +10,7 @@
   padding: 1rem 1.5rem;
   border: none;
 }
+
+.Home-Link {
+  text-decoration: none;
+}

@@ -1,13 +1,20 @@
 import './App.css';
 import React from 'react';
-import Button from '../components/Button/Button';
+import { Route, Switch } from 'react-router';
+import Home from '../pages/Home/Home';
+import Index from '../pages/Index/Index';
 
 function App() {
   return (
     <div className="App">
-      <h2>daily vocab!</h2>
-      <p>learn a new word everyday!</p>
-      <Button />
+      <Switch>
+        <Route path="/home">
+          <Home />
+        </Route>
+        <Route path="/">
+          <Index />
+        </Route>
+      </Switch>
     </div>
   );
 }

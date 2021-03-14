@@ -1,0 +1,16 @@
+.Index-Page {
+    text-align: center;
+    background-image: linear-gradient(lightblue,white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+
+.App-Heading {
+    font-weight: bold;
+    color: blue;
+    font-size: xx-large;
+    font-family:fantasy;
+}
